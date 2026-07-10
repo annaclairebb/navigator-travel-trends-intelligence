@@ -16,7 +16,6 @@ url = (
     "&include_errors=true"
     "&type=discover_new"
     "&discover_by=keyword"
-    "&limit_per_input=1" #CHANGE/ REMOVE
 )
 
 headers = {
@@ -26,8 +25,7 @@ headers = {
 
 keywords = [
     "travel lisbon",
-    "#lisbon"
-    "#lisbon #travel",
+    "#lisbon",
     "things to do in lisbon",
     "day in lisbon",
     "days in lisbon",
@@ -38,12 +36,12 @@ payload = {
     "input": [
         {
             "search_keyword": keyword,
-            "country": "GB",
-            "num_of_posts": 1,  #CHANGE THIS
+            # "country": "GB",
+            "num_of_posts": 5,  #CHANGE THIS
         }
         for keyword in keywords
     ],
-    "limit_per_input": 1,   #CHANGE THIS
+    "limit_per_input": 5,   #CHANGE THIS
 }
 
 response = requests.post(url, headers=headers, json=payload)

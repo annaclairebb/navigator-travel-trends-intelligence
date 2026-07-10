@@ -30,12 +30,12 @@ payload = {
     "input": [
         {
             "url": place,
-            # "days_limit": 30,   #MAYBE CHANGE THIS
+            "days_limit": 30,   #MAYBE CHANGE THIS
             "sort_by": "Newest",
         }
         for place in places
     ],
-    "limit_per_input": 5    #CHANGE THIS
+    "limit_per_input": 5,    #CHANGE THIS
 }
 
 # payload = {

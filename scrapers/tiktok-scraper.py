@@ -24,18 +24,24 @@ headers = {
     "Content-Type": "application/json",
 }
 
+keywords = [
+    "travel lisbon",
+    "#lisbon"
+    "#lisbon #travel",
+    "things to do in lisbon",
+    "day in lisbon",
+    "days in lisbon",
+    "#visitlisbon"
+]
+
 payload = {
     "input": [
         {
-            "search_keyword": "#travel #lisbon",
+            "search_keyword": keyword,
             "country": "GB",
             "num_of_posts": 1,
-        },
-        {
-            "search_keyword": "travel lisbon",
-            "country": "GB",
-            "num_of_posts": 1,
-        },
+        }
+        for keyword in keywords
     ],
     "limit_per_input": 1,
 }
@@ -44,3 +50,20 @@ response = requests.post(url, headers=headers, json=payload)
 
 print(response.status_code)
 print(response.text)
+
+
+# payload = {
+#     "input": [
+#         {
+#             "search_keyword": "#travel #lisbon",
+#             "country": "GB",
+#             "num_of_posts": 1,
+#         },
+#         {
+#             "search_keyword": "travel lisbon",
+#             "country": "GB",
+#             "num_of_posts": 1,
+#         },
+#     ],
+#     "limit_per_input": 1,
+# }

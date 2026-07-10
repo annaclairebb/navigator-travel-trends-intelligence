@@ -1,7 +1,13 @@
+from dotenv import load_dotenv
 import os
 import requests
 
-API_TOKEN = os.environ["a54db300-b924-4c15-a48f-954f1af33950"]
+load_dotenv()
+
+API_TOKEN = os.getenv("BRIGHTDATA_API_TOKEN")
+
+if API_TOKEN is None:
+    raise ValueError("BRIGHTDATA_API_TOKEN not found")
 
 url = (
     "https://api.brightdata.com/datasets/v3/scrape"

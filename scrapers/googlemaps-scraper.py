@@ -11,7 +11,6 @@ if API_TOKEN is None:
 
 url = (
     "https://api.brightdata.com/datasets/v3/scrape"
-    "?dataset_id=gd_luzfs1dn2oa0teb81"
     "&notify=false"
     "&include_errors=true"
 )
@@ -30,12 +29,12 @@ payload = {
     "input": [
         {
             "url": place,
-            "days_limit": 30,   #MAYBE CHANGE THIS
+            # "days_limit": 30,   #MAYBE CHANGE THIS
             "sort_by": "Newest",
         }
         for place in places
     ],
-    "limit_per_input": 5,    #CHANGE THIS
+    "limit_per_input": 5    #CHANGE THIS
 }
 
 # payload = {

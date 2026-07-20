@@ -1,0 +1,49 @@
+[
+  {
+    "url": "https://www.google.com/maps/place/Castelo+de+S%C3%A3o+Jorge/@38.7139092,-9.171585,14z/data=!4m6!3m5!1s0xd193477b40ec39b:0xb4c0704199e433d7!8m2!3d38.7139092!4d-9.1334762!16zL20vMDgybDJw?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D",
+    "place_id": "ChIJm8MOtHc0GQ0R1zPkmUFwwLQ",
+    "place_name": "Castelo de São Jorge",
+    "country": "PT",
+    "address": "R. de Santa Cruz do Castelo, 1100-129 Lisboa, Portugal",
+    "review_id": "Ci9DQUlRQUNvZENodHljRjlvT21aQ1ZWRnFSbWRrTjJKNWRGOUplVkZ5YW1WYVYyYxAB",
+    "reviewer_name": "Pash .I",
+    "reviews_by_reviewer": 19,
+    "photos_by_reviewer": "7",
+    "reviewer_url": "https://www.google.com/maps/contrib/108274623820903374744/reviews?hl=en",
+    "local_guide": true,
+    "review_rating": 4,
+    "review": null,
+    "review_date": "2026-07-20T07:52:31.411Z",
+    "number_of_likes": 0,
+    "response_of_owner": null,
+    "response_date": null,
+    "photos": null,
+    "review_details": [
+      {
+        "title": "Visited on",
+        "value": "Weekday"
+      },
+      {
+        "title": "Wait time",
+        "value": "No wait"
+      },
+      {
+        "title": "Reservation recommended",
+        "value": "No"
+      }
+    ],
+    "profile_pic_url": "https://lh3.googleusercontent.com/a/ACg8ocJTVSiMwApUMWba15DJGRSzuLZ_brDRFspu5x3b36nPIRGYLg=s120-c-rp-mo-ba12-br100",
+    "place_general_rating": 4.5,
+    "overall_place_riviews": 101696,
+    "questions_answers": null,
+    "fid_location": "0xd193477b40ec39b:0xb4c0704199e433d7",
+    "category": "castle",
+    "cid": "13024533549412529111",
+    "timestamp": "2026-07-20T10:19:26.090Z",
+    "input": {
+      "url": "https://www.google.com/maps/place/Castelo+de+S%C3%A3o+Jorge/@38.7139092,-9.171585,14z/data=!4m6!3m5!1s0xd193477b40ec39b:0xb4c0704199e433d7!8m2!3d38.7139092!4d-9.1334762!16zL20vMDgybDJw?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D",
+      "days_limit": 10,
+      "sort_by": "Newest"
+    }
+  }
+]

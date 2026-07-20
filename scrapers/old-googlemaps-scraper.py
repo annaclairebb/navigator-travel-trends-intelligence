@@ -11,6 +11,7 @@ if API_TOKEN is None:
 
 url = (
     "https://api.brightdata.com/datasets/v3/scrape"
+    "?dataset_id=gd_luzfs1dn2oa0teb81"
     "&notify=false"
     "&include_errors=true"
 )
@@ -36,18 +37,6 @@ payload = {
     ],
     "limit_per_input": 5    #CHANGE THIS
 }
-
-# payload = {
-#     "input": [
-#         {
-#             "search_keyword": keyword,
-#             "country": "GB",
-#             "num_of_posts": 1,
-#         }
-#         for keyword in keywords
-#     ],
-#     "limit_per_input": 1,
-# }
 
 response = requests.post(url, headers=headers, json=payload)
 

@@ -25,10 +25,9 @@ headers = {
 
 data = json.dumps({
     "input": [
-        # sample
         {
             "url":"",
-            "days_limit":182,
+            "days_limit":365,
             "sort_by":"Most relevant"
         },
     ],  
